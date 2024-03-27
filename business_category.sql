@@ -1,0 +1,15 @@
+create table if not exists business_category(
+category_code bigint not null,
+corp_finance_group varchar(255) null,
+credit_risk_group varchar(255) null,
+financialarket_grp varchar(255) null,
+lending_grp varchar(255) null,
+principal_finance varchar(255) null,
+retail_products varchar(255) null,
+transaction_baniking varchar(255) null,
+wealth_management varchar(255) null,
+notes_for_consumer varchar(255) null,
+golden_source varchar(255) null,
+level_two_concept varchar(255) null,
+current_ownership varchar(255) null,
+constraint business_category_pk primary key(category_code));
